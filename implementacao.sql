@@ -37,8 +37,8 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 
 	INSERT INTO "POF_2018".QUESTIONARIO 
 	VALUES('Sim', '1'),
-		  ('N„o', '2'),
-		  ('N„o', '0');
+		  ('N√£o', '2'),
+		  ('N√£o', '0');
 
 -- Criar Registro OCUPACAO_COD
 
@@ -72,7 +72,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	INSERT INTO "POF_2018".V0201 
 	VALUES('Casa', '1'),
 		  ('Apartamento', '2'),
-		  ('HabitaÁ„o em casa de cÙmodos, cortiÁo ou cabeÁa de porco', '3');
+		  ('Habita√ß√£o em casa de c√¥modos, corti√ßo ou cabe√ßa de porco', '3');
 
 
 -- Criar e Preencher Registro V0202
@@ -87,7 +87,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	VALUES('Alvenaria com revestimento / Taipa com revestimento', '1'),
 		  ('Alvenaria sem revestimento', '2'),
 		  ('Taipa sem revestimento', '3'),
-		  ('Madeira apropriada para construÁ„o (aparelhada)', '4'),
+		  ('Madeira apropriada para constru√ß√£o (aparelhada)', '4'),
 		  ('Madeira aproveitada', '5'),
 		  ('Outro material', '6');
 
@@ -103,8 +103,8 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	VALUES('Telha sem laje de concreto', '1'),
 		  ('Telha com laje de concreto', '2'),
 		  ('Somente laje de concreto', '3'),
-		  ('Madeira apropriada para construÁ„o (aparelhada)', '4'),
-		  ('Zinco, alumÌnio ou chapa met·lica', '5'),
+		  ('Madeira apropriada para constru√ß√£o (aparelhada)', '4'),
+		  ('Zinco, alum√≠nio ou chapa met√°lica', '5'),
 		  ('Outro material', '6');
 
 -- Criar e Preencher Registro V0204
@@ -116,8 +116,8 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0204 
-	VALUES('Cer‚mica, lajota ou pedra', '1'),
-		  ('Madeira apropriada para construÁ„o (aparelhada)', '2'),
+	VALUES('Cer√¢mica, lajota ou pedra', '1'),
+		  ('Madeira apropriada para constru√ß√£o (aparelhada)', '2'),
 		  ('Cimento', '3'),
 		  ('Terra', '4'),
 		  ('Outro Material', '5');
@@ -131,11 +131,11 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0207 
-	VALUES('Rede geral de distribuiÁ„o', '1'),
-		  ('PoÁo profundo ou artesiano', '2'),
-		  ('PoÁo raso, fre·tico ou cacimba', '3'),
+	VALUES('Rede geral de distribui√ß√£o', '1'),
+		  ('Po√ßo profundo ou artesiano', '2'),
+		  ('Po√ßo raso, fre√°tico ou cacimba', '3'),
 		  ('Fonte ou nascente', '4'),
-		  ('¡gua da chuva armazenada', '5'),
+		  ('√Ågua da chuva armazenada', '5'),
 		  ('Outra forma', '6');
 
 -- Criar e Preencher Registro V0208
@@ -150,7 +150,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	VALUES('Diariamente', '1'),
 		  ('De 4 a 6 dias na semana', '2'),
 		  ('De 1 a 3 dias na semana ', '3'),
-		  ('Outra frequÍncia', '4');
+		  ('Outra frequ√™ncia', '4');
 
 -- Criar e Preencher Registro V0209
 
@@ -161,9 +161,9 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0209 
-	VALUES('Canalizada em pelo menos um cÙmodo', '1'),
-		  ('Canalizada sÛ na propriedade ou terreno', '2'),
-		  ('N„o canalizada ', '3');
+	VALUES('Canalizada em pelo menos um c√¥modo', '1'),
+		  ('Canalizada s√≥ na propriedade ou terreno', '2'),
+		  ('N√£o canalizada ', '3');
 
 -- Criar e Preencher Registro V0212
 
@@ -174,8 +174,8 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0212
-	VALUES('Rede geral, rede pluvial ou fossa ligada ‡ rede', '1'),
-		  ('Fossa n„o ligada ‡ rede', '2'),
+	VALUES('Rede geral, rede pluvial ou fossa ligada √† rede', '1'),
+		  ('Fossa n√£o ligada √† rede', '2'),
 		  ('Vala', '3'),
 		  ('Rio, lago ou mar', '4'),
 		  ('Outra forma', '5');
@@ -189,8 +189,8 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0213 
-	VALUES('Coletado diretamente por serviÁo de limpeza', '1'),
-		  ('Coletado em caÁamba de serviÁo de limpeza', '2'),
+	VALUES('Coletado diretamente por servi√ßo de limpeza', '1'),
+		  ('Coletado em ca√ßamba de servi√ßo de limpeza', '2'),
 		  ('Queimado (na propriedade)', '3'),
 		  ('Enterrado (na propriedade)', '4'),
 		  ('Jogado em terreno baldio ou logradouro', '5'),
@@ -205,9 +205,9 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0215 
-	VALUES('Di·ria, em tempo integral', '1'),
-		  ('Di·ria, por algumas horas', '2'),
-		  ('Outra frequÍncia', '3');
+	VALUES('Di√°ria, em tempo integral', '1'),
+		  ('Di√°ria, por algumas horas', '2'),
+		  ('Outra frequ√™ncia', '3');
 
 -- Criar e Preencher Registro V0217
 
@@ -218,13 +218,13 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0217
-	VALUES('PrÛprio de algum morador ñ j· pago', '1'),
-		  ('PrÛprio de algum morador ñ ainda pagando', '2'),
+	VALUES('Pr√≥prio de algum morador ‚Äì j√° pago', '1'),
+		  ('Pr√≥prio de algum morador ‚Äì ainda pagando', '2'),
 		  ('Alugado', '3'),
 		  ('Cedido por empregador', '4'),
 		  ('Cedido por familiar', '5'),
 		  ('Cedido de outra forma', '6'),
-		  ('Outra condiÁ„o', '7');
+		  ('Outra condi√ß√£o', '7');
 
 -- Criar e Preencher Registro V0219
 
@@ -235,9 +235,9 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0219 
-	VALUES('Verbal (ìsÛ de bocaî)', '1'),
-		  ('Documentado atravÈs de imobili·ria', '2'),
-		  ('Documentado atravÈs de outra fonte', '3');
+	VALUES('Verbal (‚Äús√≥ de boca‚Äù)', '1'),
+		  ('Documentado atrav√©s de imobili√°ria', '2'),
+		  ('Documentado atrav√©s de outra fonte', '3');
 
 -- Criar e Preencher Registro V0221
 
@@ -248,10 +248,10 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0221
-	VALUES('Por entrega domicili·ria (pelo carteiro)', '1'),
-		  ('Em caixa postal comunit·ria ñ CPC', '2'),
-		  ('Em agÍncia de correiros mais prÛxima', '3'),
-		  ('Por entrega em outro endereÁo', '4'),
+	VALUES('Por entrega domicili√°ria (pelo carteiro)', '1'),
+		  ('Em caixa postal comunit√°ria ‚Äì CPC', '2'),
+		  ('Em ag√™ncia de correiros mais pr√≥xima', '3'),
+		  ('Por entrega em outro endere√ßo', '4'),
 		  ('Por outra forma', '5');
 
 -- Criar e Preencher Registro V6199
@@ -263,10 +263,10 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V6199 
-	VALUES('SeguranÁa', '1'),
-		  ('InseguranÁa leve', '2'),
-		  ('InseguranÁa moderada', '3'),
-		  ('InseguranÁa grave', '4');
+	VALUES('Seguran√ßa', '1'),
+		  ('Inseguran√ßa leve', '2'),
+		  ('Inseguran√ßa moderada', '3'),
+		  ('Inseguran√ßa grave', '4');
 
 -- Criar e Preencher Registro NIVEL_INSTRUCAO
 
@@ -277,11 +277,11 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".NIVEL_INSTRUCAO
-	VALUES('Sem instruÁ„o', '1'),
+	VALUES('Sem instru√ß√£o', '1'),
 		  ('Ensino Fundamental Incompleto', '2'),
 		  ('Ensino Fundamental Completo', '3'),
-		  ('Ensino MÈdio Incompleto', '4'),
-		  ('Ensino MÈdio Completo', '5'),
+		  ('Ensino M√©dio Incompleto', '4'),
+		  ('Ensino M√©dio Completo', '5'),
 		  ('Ensino Superior Incompleto', '6'),
 		  ('Ensino Superior Completo', '7');
 
@@ -294,25 +294,25 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0306
-	VALUES('Pessoa de referÍncia da UC', '1'),
-		  ('CÙnjuge ou companheiro(a) de sexo diferente', '2'),
-		  ('CÙnjuge ou companheiro(a) do mesmo sexo', '3'),
-		  ('Filho(a) da pessoa de referÍncia e do cÙnjuge', '4'),
-		  ('Filho(a) somente da pessoa de referÍncia ', '5'),
-		  ('Filho(a) somente do cÙnjuge', '6'),
+	VALUES('Pessoa de refer√™ncia da UC', '1'),
+		  ('C√¥njuge ou companheiro(a) de sexo diferente', '2'),
+		  ('C√¥njuge ou companheiro(a) do mesmo sexo', '3'),
+		  ('Filho(a) da pessoa de refer√™ncia e do c√¥njuge', '4'),
+		  ('Filho(a) somente da pessoa de refer√™ncia ', '5'),
+		  ('Filho(a) somente do c√¥njuge', '6'),
 		  ('Genro ou nora', '7'),
-		  ('Pai, m„e, padrasto ou madrasta', '8'),
+		  ('Pai, m√£e, padrasto ou madrasta', '8'),
 		  ('Sogro(a)', '9'),
 		  ('Neto(a)', '10'),
 		  ('Bisneto(a)', '11'),
-		  ('Irm„o ou irm„', '12'),
-		  ('AvÙ ou avÛ', '13'),
+		  ('Irm√£o ou irm√£', '12'),
+		  ('Av√¥ ou av√≥', '13'),
 		  ('Outro parente', '14'),
-		  ('Agregado(a) ñ n„o parente que n„o compartilha despesas', '15'),
-		  ('Convivente ñ n„o parente que compartilha despesas', '16'),
+		  ('Agregado(a) ‚Äì n√£o parente que n√£o compartilha despesas', '15'),
+		  ('Convivente ‚Äì n√£o parente que compartilha despesas', '16'),
 		  ('Pensionista', '17'),
-		  ('Empregado(a) domÈstico(a)', '18'),
-		  ('Parente do(a) empregado(a) domÈstico(a)', '19');
+		  ('Empregado(a) dom√©stico(a)', '18'),
+		  ('Parente do(a) empregado(a) dom√©stico(a)', '19');
 
 -- Criar e Preencher Registro V0401
 
@@ -352,8 +352,8 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 		  ('Preta', '2'),
 		  ('Amarela', '3'),
 		  ('Parda', '4'),
-		  ('IndÌgena', '5'),
-		  ('Sem declaraÁ„o', '9');
+		  ('Ind√≠gena', '5'),
+		  ('Sem declara√ß√£o', '9');
 
 -- Criar e Preencher Registro V0418
 
@@ -365,7 +365,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 
 	INSERT INTO "POF_2018".V0418 
 	VALUES('Rede privada', '1'),
-		  ('Rede p˙blica', '2');
+		  ('Rede p√∫blica', '2');
 
 -- Criar e Preencher Registro V0419
 
@@ -377,14 +377,14 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 
 	INSERT INTO "POF_2018".V0419
 	VALUES('Creche', '1'),
-		  ('PrÈ-escola', '2'),
-		  ('AlfabetizaÁ„o de jovens e adultos', '3'),
+		  ('Pr√©-escola', '2'),
+		  ('Alfabetiza√ß√£o de jovens e adultos', '3'),
 		  ('Regular do ensino fundamental', '4'),
-		  ('EducaÁ„o de jovens e adultos ñ EJA do ensino fundamental', '5'),
-		  ('Regular do ensino mÈdio', '6'),
-		  ('EducaÁ„o de jovens e adultos ñ EJA do ensino mÈdio', '7'),
-		  ('Superior ñ graduaÁ„o', '8'),
-		  ('EspecializaÁ„o de nÌvel superior (duraÁ„o mÌnima de 360 horas)', '9'),
+		  ('Educa√ß√£o de jovens e adultos ‚Äì EJA do ensino fundamental', '5'),
+		  ('Regular do ensino m√©dio', '6'),
+		  ('Educa√ß√£o de jovens e adultos ‚Äì EJA do ensino m√©dio', '7'),
+		  ('Superior ‚Äì gradua√ß√£o', '8'),
+		  ('Especializa√ß√£o de n√≠vel superior (dura√ß√£o m√≠nima de 360 horas)', '9'),
 		  ('Mestrado', '10'),
 		  ('Doutorado', '11');
 
@@ -409,7 +409,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0421 
-	VALUES('PerÌodos semestrais', '1'),
+	VALUES('Per√≠odos semestrais', '1'),
 		  ('Anos', '2'),
 		  ('Outra forma', '3');
 
@@ -428,13 +428,13 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 		  ('Quarta(o)', '4'),
 		  ('Quinta(o)', '5'),
 		  ('Sexta(o)', '6'),
-		  ('SÈtima(o)', '7'),
+		  ('S√©tima(o)', '7'),
 		  ('Oitava(o)', '8'),
 		  ('Nona(o)', '9'),
-		  ('DÈcimo', '10'),
-		  ('DÈcimo primeiro', '11'),
-		  ('DÈcimo segundo', '12'),
-		  ('Curso  n„o classificado em sÈries ou anos', '13');
+		  ('D√©cimo', '10'),
+		  ('D√©cimo primeiro', '11'),
+		  ('D√©cimo segundo', '12'),
+		  ('Curso  n√£o classificado em s√©ries ou anos', '13');
 
 -- Criar e Preencher Registro V0425
 
@@ -446,18 +446,18 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 
 	INSERT INTO "POF_2018".V0425
 	VALUES('Creche', '1'),
-		  ('PrÈ-escola', '2'),
-		  ('Classe de alfabetizaÁ„o ñ CA', '3'),
-		  ('AlfabetizaÁ„o de jovens e adultos', '4'),
-		  ('Antigo prim·rio (elementar)', '5'),
-		  ('Antigo ginasial (mÈdio 1∫ ciclo)', '6'),
-		  ('Regular do ensino fundamental ou do 1∫ grau', '7'),
-		  ('EducaÁ„o de jovens e adultos ñ EJA do ensino fundamental ou supletivo do 1∫ grau', '8'),
-		  ('Antigo cientÌfico, cl·ssico, etc. (mÈdio 2∫ ciclo)', '9'),
-		  ('Regular do ensino mÈdio ou do 2∫ grau', '10'),
-		  ('EducaÁ„o de jovens e adultos ñ EJA do ensino mÈdio ou supletivo do 2∫ grau', '11'),
-		  ('Superior ñ graduaÁ„o', '12'),
-		  ('EspecializaÁ„o de nÌvel superior (duraÁ„o mÌnima de 360 horas)', '13'),
+		  ('Pr√©-escola', '2'),
+		  ('Classe de alfabetiza√ß√£o ‚Äì CA', '3'),
+		  ('Alfabetiza√ß√£o de jovens e adultos', '4'),
+		  ('Antigo prim√°rio (elementar)', '5'),
+		  ('Antigo ginasial (m√©dio 1¬∫ ciclo)', '6'),
+		  ('Regular do ensino fundamental ou do 1¬∫ grau', '7'),
+		  ('Educa√ß√£o de jovens e adultos ‚Äì EJA do ensino fundamental ou supletivo do 1¬∫ grau', '8'),
+		  ('Antigo cient√≠fico, cl√°ssico, etc. (m√©dio 2¬∫ ciclo)', '9'),
+		  ('Regular do ensino m√©dio ou do 2¬∫ grau', '10'),
+		  ('Educa√ß√£o de jovens e adultos ‚Äì EJA do ensino m√©dio ou supletivo do 2¬∫ grau', '11'),
+		  ('Superior ‚Äì gradua√ß√£o', '12'),
+		  ('Especializa√ß√£o de n√≠vel superior (dura√ß√£o m√≠nima de 360 horas)', '13'),
 		  ('Mestrado', '14'),
 		  ('Doutorado', '15');
 
@@ -471,8 +471,8 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 
 	INSERT INTO "POF_2018".V0428
 	VALUES('Sim', '1'),
-		  ('N„o', '2'),
-		  ('Curso n„o classificado em sÈries ou anos', '3');
+		  ('N√£o', '2'),
+		  ('Curso n√£o classificado em s√©ries ou anos', '3');
 
 -- Criar e Preencher Registro C1
 
@@ -483,7 +483,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".C1
-	VALUES('AtÈ 24 anos', '1'),
+	VALUES('At√© 24 anos', '1'),
 		  ('25 a 49 anos', '2'),
 		  ('50 a 64 anos', '3'),
 		  ('65 anos ou mais', '4');
@@ -510,12 +510,12 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".C5
-	VALUES('Empregado DomÈstico', '1'),
+	VALUES('Empregado Dom√©stico', '1'),
 		  ('Empregado privado', '2'),
-		  ('Militar e empregado do setor p˙blico', '3'),
-		  ('Conta prÛpria', '4'),
+		  ('Militar e empregado do setor p√∫blico', '3'),
+		  ('Conta pr√≥pria', '4'),
 		  ('Empregador', '5'),
-		  ('Fora da forÁa de trabalho e outros casos', '6');
+		  ('Fora da for√ßa de trabalho e outros casos', '6');
 
 -- Criar e Preencher Registro C6
 
@@ -526,12 +526,12 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".C6
-	VALUES('Um adulto sem crianÁa', '1'),
-		  ('Um adulto com ao menos uma crianÁa', '2'),
-		  ('Mais de um adulto sem crianÁa', '3'),
-		  ('Mais de um adulto com ao menos uma crianÁa', '4'),
-		  ('Um ou mais idosos com ou sem crianÁas', '5'),
-		  ('Um ou mais idosos, com ao menos um adulto, com ou sem crianÁas', '6');
+	VALUES('Um adulto sem crian√ßa', '1'),
+		  ('Um adulto com ao menos uma crian√ßa', '2'),
+		  ('Mais de um adulto sem crian√ßa', '3'),
+		  ('Mais de um adulto com ao menos uma crian√ßa', '4'),
+		  ('Um ou mais idosos com ou sem crian√ßas', '5'),
+		  ('Um ou mais idosos, com ao menos um adulto, com ou sem crian√ßas', '6');
 
 -- Criar e Preencher Registro GRANDE_REGIAO
 
@@ -559,7 +559,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	INSERT INTO "POF_2018".V9010
 	VALUES('Janeiro', '1'),
 		  ('Fevereiro', '2'),
-		  ('MarÁo', '3'),
+		  ('Mar√ßo', '3'),
 		  ('Abril', '4'),
 		  ('Maio', '5'),
 		  ('Junho', '6'),
@@ -579,7 +579,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 	
 	INSERT INTO "POF_2018".COD_IMPUT_QTD
-	VALUES('Quantidade em Kwh n„o foi imputada', '0'),
+	VALUES('Quantidade em Kwh n√£o foi imputada', '0'),
 		  ('Quantidade em Kwh foi imputada', '1');		  
 
 
@@ -592,7 +592,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".COD_IMPUT_VALOR
-	VALUES('Valor n„o foi imputado', '0'),
+	VALUES('Valor n√£o foi imputado', '0'),
 		  ('Valor foi imputado', '1');
 
 -- Criar e Preencher Registro V1905
@@ -606,7 +606,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	INSERT INTO "POF_2018".V1905
 	VALUES('Mensalista', '1'),
 		  ('Diarista', '3'),
-		  ('Sem declaraÁ„o', '9');
+		  ('Sem declara√ß√£o', '9');
 
 -- Criar e Preencher Registro V9002
 
@@ -617,16 +617,16 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V9002
-	VALUES('Monet·ria ‡ vista para a Unidade de Consumo', '1'),
-		  ('Monet·ria ‡ vista para outra Unidade de Consumo', '2'),
-		  ('Monet·ria a prazo para a Unidade de Consumo', '3'),
-		  ('Monet·ria a prazo para outra Unidade de Consumo', '4'),
-		  ('Cart„o de crÈdito ‡ vista para a Unidade de Consumo', '5'),
-		  ('Cart„o de crÈdito ‡ vista para outra Unidade de Consumo', '6'),
-		  ('DoaÁ„o', '7'),
-		  ('Retirada do NegÛcio', '8'),
+	VALUES('Monet√°ria √† vista para a Unidade de Consumo', '1'),
+		  ('Monet√°ria √† vista para outra Unidade de Consumo', '2'),
+		  ('Monet√°ria a prazo para a Unidade de Consumo', '3'),
+		  ('Monet√°ria a prazo para outra Unidade de Consumo', '4'),
+		  ('Cart√£o de cr√©dito √† vista para a Unidade de Consumo', '5'),
+		  ('Cart√£o de cr√©dito √† vista para outra Unidade de Consumo', '6'),
+		  ('Doa√ß√£o', '7'),
+		  ('Retirada do Neg√≥cio', '8'),
 		  ('Troca', '9'),
-		  ('ProduÁ„o PrÛpria', '10'),
+		  ('Produ√ß√£o Pr√≥pria', '10'),
 		  ('Outra', '11');
 
 -- Criar e Preencher Registro V9012
@@ -640,7 +640,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	INSERT INTO "POF_2018".v9012 
 	VALUES ('Novo', '1'),
 		   ('Usado', '3'),
-	       ('Sem declaraÁ„o', '9');
+	       ('Sem declara√ß√£o', '9');
 
 -- Criar Registro CADASTRO_LOCAIS_AQUISICAO
 
@@ -700,14 +700,14 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V4104
-	VALUES('Lazer, recreio e fÈrias', '1'),
+	VALUES('Lazer, recreio e f√©rias', '1'),
 		  ('Visita a parentes e amigos', '2'),
-		  ('NegÛcios e motivos profissionais', '3'),
-		  ('EducaÁ„o', '4'),
-		  ('Tratamentos mÈdicos', '5'),
-		  ('Religi„o, peregrinaÁıes', '6'),
+		  ('Neg√≥cios e motivos profissionais', '3'),
+		  ('Educa√ß√£o', '4'),
+		  ('Tratamentos m√©dicos', '5'),
+		  ('Religi√£o, peregrina√ß√µes', '6'),
 		  ('Outros motivos', '7'),
-		  ('Sem declaraÁ„o', '9');
+		  ('Sem declara√ß√£o', '9');
 
 -- Criar e Preencher Registro V4105
 
@@ -720,7 +720,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	INSERT INTO "POF_2018".V4105
 	VALUES('Nacional', '1'),
 		  ('Internacional', '2'),
-		  ('Sem declaraÁ„o', '9');
+		  ('Sem declara√ß√£o', '9');
 
 -- Criar e Preencher Registro V9013
 
@@ -731,10 +731,10 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V9013
-	VALUES('N„o adquiriu por falta de dinheiro', '1'),
-		  ('N„o adquiriu por indisponibilidade do produto ou serviÁo', '2'),
-		  ('N„o adquiriu por dificuldade de chegar a algum local de aquisiÁ„o', '3'),
-		  ('N„o adquiriu por outros motivos', '4');
+	VALUES('N√£o adquiriu por falta de dinheiro', '1'),
+		  ('N√£o adquiriu por indisponibilidade do produto ou servi√ßo', '2'),
+		  ('N√£o adquiriu por dificuldade de chegar a algum local de aquisi√ß√£o', '3'),
+		  ('N√£o adquiriu por outros motivos', '4');
 
 -- Criar e Preencher Registro SUB_QUADRO
 
@@ -757,13 +757,13 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V5302
-	VALUES('Trabalhador DomÈstico', '1'),
-		  ('Militar do exÈrcito, da marinha, da aeron·utica, da polÌcia militar ou do corpo de bombeiros militar', '2'),
+	VALUES('Trabalhador Dom√©stico', '1'),
+		  ('Militar do ex√©rcito, da marinha, da aeron√°utica, da pol√≠cia militar ou do corpo de bombeiros militar', '2'),
 		  ('Empregado do setor privado', '3'),
-		  ('Empregado do setor p˙blico (inclusive empresas de economia mista)', '4'),
+		  ('Empregado do setor p√∫blico (inclusive empresas de economia mista)', '4'),
 		  ('Empregador', '5'),
-		  ('Conta prÛpria', '6'),
-		  ('Trabalhador n„o remunerado em ajuda a membro do domicÌlio ou parente', '7');
+		  ('Conta pr√≥pria', '6'),
+		  ('Trabalhador n√£o remunerado em ajuda a membro do domic√≠lio ou parente', '7');
 
 -- Criar e Preencher Registro V5307
 
@@ -775,9 +775,9 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 
 	INSERT INTO "POF_2018".V5307
 	VALUES('Em dinheiro', '1'),
-		  ('Em dinheiro e benefÌcios', '2'),
-		  ('Somente em benefÌcios', '3'),
-		  ('N„o teve rendimento', '4');
+		  ('Em dinheiro e benef√≠cios', '2'),
+		  ('Somente em benef√≠cios', '3'),
+		  ('N√£o teve rendimento', '4');
 
 -- Criar e Preencher Registro V5315
 
@@ -788,12 +788,12 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V5315
-	VALUES('atÈ 05 minutos', '1'),
-		  ('de 06 minutos atÈ 30 minutos', '2'),
-		  ('mais de 30 minutos atÈ 1 hora', '3'),
-		  ('mais de 1 hora atÈ 2 horas', '4'),
+	VALUES('at√© 05 minutos', '1'),
+		  ('de 06 minutos at√© 30 minutos', '2'),
+		  ('mais de 30 minutos at√© 1 hora', '3'),
+		  ('mais de 1 hora at√© 2 horas', '4'),
 		  ('mais de 2 horas', '5'),
-		  ('Sem declaraÁ„o', '9');
+		  ('Sem declara√ß√£o', '9');
 
 -- Criar e Preencher Registro V53021
 
@@ -804,10 +804,10 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V53021
-	VALUES('Conta prÛpria ou empregador', '1'),
+	VALUES('Conta pr√≥pria ou empregador', '1'),
 		  ('Empregado', '2'),
-		  ('Trabalhador domÈstico', '3'),
-		  ('Sem declaraÁ„o', '9');
+		  ('Trabalhador dom√©stico', '3'),
+		  ('Sem declara√ß√£o', '9');
 
 -- Criar e Preencher Registro V6101
 
@@ -835,9 +835,9 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 
 	INSERT INTO "POF_2018".V61041
 	VALUES('Bom', '1'),
-		  ('SatisfatÛrio', '2'),
+		  ('Satisfat√≥rio', '2'),
 		  ('Ruim', '3'),
-		  ('N„o tem', '4');
+		  ('N√£o tem', '4');
 
 
 -- Criar e Preencher Registro V7101
@@ -849,10 +849,10 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V7101
-	VALUES('AÁ˙car', '1'),
-		  ('AdoÁante', '2'),
-		  ('AÁ˙car e adoÁante', '3'),
-		  ('N„o utiliza', '4');
+	VALUES('A√ß√∫car', '1'),
+		  ('Ado√ßante', '2'),
+		  ('A√ß√∫car e ado√ßante', '3'),
+		  ('N√£o utiliza', '4');
 
 
 -- Criar e Preencher Registro COD_PREPARACAO_FINAL
@@ -876,12 +876,12 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 		  ('Cozido(a) com gordura', '2'),
 		  ('Cozido(a) sem gordura', '3'),
 		  ('Cru(a)', '4'),
-		  ('Empanado(a) / ‡ milanesa', '5'),
+		  ('Empanado(a) / √† milanesa', '5'),
 		  ('Ensopado(a)', '6'),
 		  ('Frito(a)', '7'),
 		  ('Grelhado(a) / brasa / churrasco', '8'),
 		  ('Refogado(a)', '9'),
-		  ('N„o determinado ', '99');
+		  ('N√£o determinado ', '99');
 
 -- Criar e Preencher Registro V9017
 
@@ -892,13 +892,13 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V9017
-	VALUES('CafÈ da manh„', '1'),
-		  ('AlmoÁo', '2'),
+	VALUES('Caf√© da manh√£', '1'),
+		  ('Almo√ßo', '2'),
 		  ('Lanche', '3'),
 		  ('Jantar', '4'),
 		  ('Ceia', '5'),
-		  ('Outra ocasi„o', '6'),
-		  ('N„o determinado', '9');
+		  ('Outra ocasi√£o', '6'),
+		  ('N√£o determinado', '9');
 
 -- Criar e Preencher Registro V9018
 
@@ -911,12 +911,12 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	INSERT INTO "POF_2018".V9018
 	VALUES('Em casa ou levado de casa', '1'),
 		  ('Merenda escolar', '2'),
-		  ('Restaurante ‡ quilo', '3'),
+		  ('Restaurante √† quilo', '3'),
 		  ('Cantina, bar, lanchonete, fast food', '4'),
-		  ('Restaurante ñ outros', '5'),
+		  ('Restaurante ‚Äì outros', '5'),
 		  ('Vendedores ambulantes ou de rua', '6'),
-		  ('Fora de casa ñ outros', '7'),
-		  ('N„o determinado', '9');
+		  ('Fora de casa ‚Äì outros', '7'),
+		  ('N√£o determinado', '9');
 
 -- Criar e Preencher Registro V0427
 
@@ -927,7 +927,7 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 	);
 
 	INSERT INTO "POF_2018".V0427
-	VALUES('PerÌodos semestrais', '1'),
+	VALUES('Per√≠odos semestrais', '1'),
 		  ('Anos', '2'),
 		  ('Outra forma', '3');
 
@@ -1486,20 +1486,20 @@ CREATE SCHEMA "POF_2018" AUTHORIZATION "2222120010_Vinicius";
 		V6101 varchar(1),
 		V6102 numeric(6),
 		V6103 numeric(5),
-		V61041 varchar(1), -- Nivel SatisfaÁ„o
-		V61042 varchar(1), -- Nivel SatisfaÁ„o
-		V61043 varchar(1), -- Nivel SatisfaÁ„o
-		V61044 varchar(1), -- Nivel SatisfaÁ„o
-		V61045 varchar(1), -- Nivel SatisfaÁ„o
-		V61046 varchar(1), -- Nivel SatisfaÁ„o
-		V61051 varchar(1), -- Nivel SatisfaÁ„o
-		V61052 varchar(1), -- Nivel SatisfaÁ„o
-		V61053 varchar(1), -- Nivel SatisfaÁ„o
-		V61054 varchar(1), -- Nivel SatisfaÁ„o
-		V61055 varchar(1), -- Nivel SatisfaÁ„o
-		V61056 varchar(1), -- Nivel SatisfaÁ„o
-		V61057 varchar(1), -- Nivel SatisfaÁ„o
-		V61058 varchar(1), -- Nivel SatisfaÁ„o
+		V61041 varchar(1), -- Nivel Satisfa√ß√£o
+		V61042 varchar(1), -- Nivel Satisfa√ß√£o
+		V61043 varchar(1), -- Nivel Satisfa√ß√£o
+		V61044 varchar(1), -- Nivel Satisfa√ß√£o
+		V61045 varchar(1), -- Nivel Satisfa√ß√£o
+		V61046 varchar(1), -- Nivel Satisfa√ß√£o
+		V61051 varchar(1), -- Nivel Satisfa√ß√£o
+		V61052 varchar(1), -- Nivel Satisfa√ß√£o
+		V61053 varchar(1), -- Nivel Satisfa√ß√£o
+		V61054 varchar(1), -- Nivel Satisfa√ß√£o
+		V61055 varchar(1), -- Nivel Satisfa√ß√£o
+		V61056 varchar(1), -- Nivel Satisfa√ß√£o
+		V61057 varchar(1), -- Nivel Satisfa√ß√£o
+		V61058 varchar(1), -- Nivel Satisfa√ß√£o
 		V61061 varchar(1), -- Quest
 		V61062 varchar(1), -- Quest
 		V61063 varchar(1), -- Quest
